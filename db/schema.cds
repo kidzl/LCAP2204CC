@@ -8,7 +8,7 @@ entity Books
     title : String(100);
     stock : Integer;
     price : Decimal(10,2);
-    currency : String(3);
+    currency : String(8);
     author : Association to one Authors;
 }
 
